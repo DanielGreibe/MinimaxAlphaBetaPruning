@@ -62,8 +62,8 @@ public class Main {
                 {
                     break;
                 }
-                return maxEval;
             }
+            return maxEval;
         }
         else {
             int minEval = Integer.MAX_VALUE;
@@ -75,11 +75,9 @@ public class Main {
                 {
                     break;
                 }
-                return minEval;
             }
+            return minEval;
         }
-        System.out.println("Should never reach this point");
-        return position.value;
     }
 
     public static class Node {
